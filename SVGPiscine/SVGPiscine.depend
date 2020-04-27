@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1587999665 source:d:\ece\ing2\info\projet piscine\svgpiscine\main.cpp
+	"svgfile.h"
+	<iostream>
+
+1587999665 d:\ece\ing2\info\projet piscine\svgpiscine\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1587999665 source:d:\ece\ing2\info\projet piscine\svgpiscine\svgfile.cpp
+	"svgfile.h"
+	<iostream>
+	<sstream>
+
