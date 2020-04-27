@@ -1,9 +1,12 @@
 #include <iostream>
+#include <vector>
+#include <fstream>
+#include <string>
+#include "arete.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+  lire_fichier();
 }

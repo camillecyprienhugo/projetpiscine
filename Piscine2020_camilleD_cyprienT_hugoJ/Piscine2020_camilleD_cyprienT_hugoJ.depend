@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1588023617 source:c:\users\dell\documents\github\test\piscine2020_camilled_cyprient_hugoj\lecturefichier.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<string>
+
+1588023638 source:c:\users\dell\documents\github\test\piscine2020_camilled_cyprient_hugoj\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<string>
+	"arete.h"
+
+1588023764 c:\users\dell\documents\github\test\piscine2020_camilled_cyprient_hugoj\arete.h
+
