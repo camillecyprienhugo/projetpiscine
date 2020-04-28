@@ -118,4 +118,3 @@ std::string makeRGB(int r, int g, int b)
     oss << "rgb(" << r << "," << g << "," << b << ")";
     return oss.str();
 }
-

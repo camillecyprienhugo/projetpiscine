@@ -1,16 +1,22 @@
-#include "svgfile.h"
 #include <iostream>
+#include <vector>
+#include <fstream>
+#include <string>
+#include "svgfile.h"
+#include "arete.h"
+#include "graphe.h"
 
-/// Toute la partie sur la génération du SVG est un code founi par monsieur Fercoq
-
-/// Voir implémentation après le main
 void svgTest();
 
 int main()
 {
-    svgTest();
+     Graphe a;
 
-    return 0;
+     a.lire_fichier();
+
+     a.afficher_grapheC();
+
+     svgTest();
 }
 
 /// Code initial pour comprendre les ajouts de primitives
@@ -27,3 +33,5 @@ void svgTest()
     /// L'objet svgout est automatiquement libéré à la sortie
     /// de ce sous-programme : le fichier output.svg est alors fermé
 }
+
+

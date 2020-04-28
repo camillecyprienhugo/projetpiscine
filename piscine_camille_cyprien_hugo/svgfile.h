@@ -1,6 +1,5 @@
 #ifndef SVGFILE_H_INCLUDED
 #define SVGFILE_H_INCLUDED
-
 #include <string>
 #include <fstream>
 #include <set>
@@ -10,6 +9,7 @@ constexpr char defcol[] = "black";
 class Svgfile
 {
     private:
+
         std::string m_filename;
         std::ofstream m_ostrm;
         int m_width;
@@ -36,4 +36,3 @@ std::string makeRGB(int r, int g, int b);
 
 
 #endif // SVGFILE_H_INCLUDED
-

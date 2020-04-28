@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1588104837 source:c:\users\dell\desktop\projet2020\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<string>
+	"svgfile.h"
+	"arete.h"
+	"graphe.h"
+
+1588104837 c:\users\dell\desktop\projet2020\arete.h
+
+1588104504 source:c:\users\dell\desktop\projet2020\lire_fichier.cpp
+
+1588105007 source:c:\users\dell\desktop\projet2020\graphe.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<string>
+	<new>
+	"arete.h"
+	"graphe.h"
+	"sommet.h"
+
+1588104837 source:c:\users\dell\desktop\projet2020\arete.cpp
+	"arete.h"
+	<iostream>
+
+1588104837 source:c:\users\dell\desktop\projet2020\sommet.cpp
+	<iostream>
+	"sommet.h"
+
+1588097206 c:\users\dell\desktop\projet2020\graphe.h
+	<vector>
+	<string>
+	"arete.h"
+	"sommet.h"
+
+1588104900 c:\users\dell\desktop\projet2020\sommet.h
+	<string.h>
+
+1588103966 source:c:\users\dell\desktop\projet2020\svgfile.cpp
+	"svgfile.h"
+	<iostream>
+	<sstream>
+
+1588104900 c:\users\dell\desktop\projet2020\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
