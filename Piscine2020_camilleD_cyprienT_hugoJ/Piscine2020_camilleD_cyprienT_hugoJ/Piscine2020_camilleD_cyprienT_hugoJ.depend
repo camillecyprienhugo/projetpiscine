@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1588023617 source:c:\users\dell\documents\github\test\piscine2020_camilled_cyprient_hugoj\lecturefichier.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<string>
+
+1588023638 source:c:\users\dell\documents\github\test\piscine2020_camilled_cyprient_hugoj\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<string>
+	"arete.h"
+
+1588023764 c:\users\dell\documents\github\test\piscine2020_camilled_cyprient_hugoj\arete.h
+
+1588071095 source:d:\ece\ing2\info\projet piscine\projetpiscine-master\piscine2020_camilled_cyprient_hugoj\lecturefichier.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<string>
+
+1588071417 source:d:\ece\ing2\info\projet piscine\projetpiscine-master\piscine2020_camilled_cyprient_hugoj\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<string>
+	"lecturefichier.h"
+
+1588071087 d:\ece\ing2\info\projet piscine\projetpiscine-master\piscine2020_camilled_cyprient_hugoj\lecturefichier.h
+
