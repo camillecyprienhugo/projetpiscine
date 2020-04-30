@@ -72,7 +72,15 @@ void Svgfile::addLine(double x1, double y1, double x2, double y2, std::string co
             << attrib("stroke", color)
             << "/>\n";
 }
-
+void Svgfile::addDisk(double x, double y, double r, std::string color)
+{
+    m_ostrm << "<circle "
+            << attrib("cx", x)
+            << attrib("cy", y)
+            << attrib("r",  r)
+            << attrib("fill", color )
+            << "/>\n";
+}
 
 void Svgfile::addText(double x, double y, std::string text, std::string color)
 {

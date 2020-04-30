@@ -4,6 +4,9 @@
 #include <string>
 #include "arete.h"
 #include "sommet.h"
+#include "svgfile.h"
+
+
 class Sommet;
 class Arete;
 
@@ -25,8 +28,12 @@ class Graphe
         std::vector<Sommet*>m_listeS;
         std::vector<Arete*>m_listeA;
 
-        void lire_fichier();
+        void lire_fichier(std::string *nomF);
         void afficher_grapheC();
+        void svg_sommet();
+        void degre_somm();
+        void vec_propre();
+
 };
 
 

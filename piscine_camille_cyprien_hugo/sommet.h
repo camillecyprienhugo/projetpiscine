@@ -1,6 +1,8 @@
 #ifndef SOMMET_H_INCLUDED
 #define SOMMET_H_INCLUDED
 #include <string.h>
+#include "svgfile.h"
+#include <vector>
 
 class Sommet
 {
@@ -9,6 +11,12 @@ class Sommet
         char m_nom;
         int m_coorX;
         int m_coorY;
+
+        std::vector < int > m_sommetadj;
+        double m_cvp; ///nouvel indice pour la methode vecteur propre sans lien avec m_indiceS
+        std::vector <int > m_somme; ///vecteur dans lequel on va mettre les sommes d'indices cvp de chaque sommet
+
+
 
 
 
@@ -19,9 +27,21 @@ class Sommet
         void setnom(char nom);
         void setcoorX(int coorX);
         void setcoorY (int coorY);
+        void setsommetadj (int sommetadj);
+        void setcvp (double cvp);
+        void setsomme(int somme);
+
+        int getX();
+        int getY();
+        char getnom();
+        double getcvp();
+        int getsommetadj(int i);
+        int getsomm(int i);
 
 
         void afficher_sommet();
+
+
 };
 
 

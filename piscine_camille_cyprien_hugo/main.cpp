@@ -10,28 +10,20 @@ void svgTest();
 
 int main()
 {
-     Graphe a;
+    Graphe a;
 
-     a.lire_fichier();
+    std:: string *nomF(0);
+    std:: string nom;
+    std::cout<< "Rentrez le nom du fichier sans oublier le .txt" <<std::endl;
+    std::cin >> nom ;
+    nomF = &nom ;
 
-     a.afficher_grapheC();
+    a.lire_fichier(nomF);
 
-     svgTest();
+    a.afficher_grapheC();
+
+    a.svg_sommet();
+
+    a.degre_somm();
 }
-
-/// Code initial pour comprendre les ajouts de primitives
-void svgTest()
-{
-    /// Sortie graphique dans le fichier output.svg
-    /// ( options à voir svgfile.h ligne 23 )
-    Svgfile svgout;
-
-    /// Dessin du repère cartésien
-    svgout.addGrid();
-
-
-    /// L'objet svgout est automatiquement libéré à la sortie
-    /// de ce sous-programme : le fichier output.svg est alors fermé
-}
-
 
