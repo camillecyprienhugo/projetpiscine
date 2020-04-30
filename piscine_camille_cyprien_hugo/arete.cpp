@@ -23,16 +23,6 @@ void Arete :: setextremite2 (int extremite2)
     extremite2 = m_extremite2;
 }
 
-int Arete :: getextrem1 ()
-{
-    return m_extremite1;
-}
-
-int Arete :: getextrem2()
-{
-    return m_extremite2;
-}
-
 void Arete :: afficher_arete()
 {
     std::cout << m_indiceA << m_extremite1 << m_extremite2;

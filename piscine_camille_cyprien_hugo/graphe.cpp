@@ -106,10 +106,6 @@ void Graphe :: svg_sommet()
 {
       int coorx;
       int coory;
-      int indix;
-      int indiy;
-      int coorxx;
-      int cooryy;
       Svgfile svgout;
       svgout.addGrid();
 
@@ -121,103 +117,6 @@ void Graphe :: svg_sommet()
           svgout.addDisk(coorx*100,coory*100,10,"black");
       }
 
-      for (int i=0 ; i< m_ordreA; ++i)
-      {
-          indix=m_listeA[i]->getextrem1();
-          indiy=m_listeA[i]->getextrem2();
-
-          coorx = m_listeS[indix]->getX();
-          coory = m_listeS[indix]->getY();
-          coorxx = m_listeS[indiy]->getX();
-          cooryy = m_listeS[indiy]->getY();
-
-          svgout.addLine(coorx*100, coory*100 , coorxx*100, cooryy*100, "black");
-
-      }
-
-}
-
-void Graphe :: degre_somm()
-{
-    int degre=0;
-    char lettre;
-    int a;
-    int b;
-
-        for (int i=0 ; i<m_ordreS;++i)
-        {
-            //std::cout << "testaaaa"<<std::endl;
-            for (int j=0 ; j<m_ordreA;++j)
-            {
-                a=m_listeA[j]->getextrem1();
-                b=m_listeA[j]->getextrem2();
-
-                //std::cout << "testbbbb"<<std::endl;
-                if ((i==a)||(i==b) )
-                {
-                    degre = degre+1;
-                    //std::cout << "testcccc"<<std::endl;
-                }
-                else
-                {
-
-                }
-                    //degre=0;
-            }
-
-            lettre = m_listeS[i]->getnom();
-            std::cout<< " le degre de " << lettre << " est " << degre << std::endl;
-            degre=0;
-        }
-}
-
-
-void Graphe :: vec_propre()
-{
-    int val=0;
-
-    for (int i=0 ; i<m_ordreS;++i) //parcour des sommets
-    {
-        for (int j=0 ; j<m_ordreA ; ++j) //parcour des aretes
-        {
-           if (m_listeA[j]->getextrem1()==i) ///si l'extremite1 de l'arete est egale
-                                            /// à l'indice du sommet
-           {
-               val=m_listeA[j]->getextrem2(); ///alors val prend la valeur de l'extremite 2 (indce d'un sommet)
-               m_listeS[i]->setsommetadj(val);///on met l'indice du sommet adjacent dans un vecteur du sommet traité
-           }
-           if (m_listeA[j]->getextrem2()==i) ///iverse du premier
-           {
-               val=m_listeA[j]->getextrem1();
-                m_listeS[i]->setsommetadj(val);
-           }
-        }
-    }
-    for (int i=0;i<m_ordreS;++i) ///tous les sommets ont comme indice cvp, 1
-    {
-                m_listeS[i]->setcvp(1); ///sujet p3 dans initialisation
-    }
-    for (int i=0;i<m_ordreS;i++)
-    {
-        int h ;
-        h = size(). m_listeS[i]->getsommetadj[i]; ///nombre de sommet adjacent par sommet (ex: sommet n°0 a 3 adj)
-        for (int j=0; j<h ;++j)
-        {
-            int somme=0;
-            somme=somme+ m_listeS[j]->getcvp(); ///on somme les indice (au debut=1) de chaque sommet
-            std::cout<<"test";
-            m_listeS[i]->setsomm(somme); ///on place les sommes de chaque sommet dans ce vecteur
-        }
-    }
-    for (int i=0; i<m_ordreS;++i) ///on fait la somme totale des sommes d'indice cvp de chaque sommet
-    {
-        int lambda=0;
-        lambda=lambda+ m_listeS[i]->getsomm[i];
-    }
-    for (int i=0;i<m_ordreS;++i)
-    {
-        m_listeS[i]->setcvp()= m_listeS[i]->getsomm[i] / lambda; ///somme des cvp par sommet divisé par somme totale de toutes les sommes de cvp
-    }
 }
 
 

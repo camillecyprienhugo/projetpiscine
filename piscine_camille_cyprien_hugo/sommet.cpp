@@ -42,44 +42,6 @@ int Sommet :: getY()
     return m_coorY;
 }
 
-void Sommet :: setsommetadj(int i)
-{
-    m_sommetadj.push_back(i);
-}
-
-int Sommet :: getsommetadj(int i)
-{
-    return m_sommetadj[i];
-}
-
-
-void Sommet :: setsomme (int i)
-{
-    m_somme.push_back(i);
-}
-
-int Sommet :: getsomm (int i)
-{
-    return m_somm[i];
-}
-
-void Sommet :: setcvp (double cvp)
-{
-    cvp=m_cvp;
-}
-
-double Sommet :: getcvp()
-{
-    return m_cvp;
-}
-
-
-
-char Sommet :: getnom()
-{
-    return m_nom;
-}
-
 void Sommet :: afficher_sommet()
 {
        std::cout<< m_indiceS << m_nom<< m_coorX << m_coorY;
