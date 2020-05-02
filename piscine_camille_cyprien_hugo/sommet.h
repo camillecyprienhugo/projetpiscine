@@ -12,8 +12,6 @@ class Sommet
         int m_coorX;
         int m_coorY;
 
-
-
     public :
         Sommet(int indiceS, char nom, int coorX , int coorY);
 
@@ -24,9 +22,13 @@ class Sommet
 
         int getX();
         int getY();
+        char getnom();
+        int getindice();
+
 
 
         void afficher_sommet();
+
 
 };
 

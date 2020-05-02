@@ -19,6 +19,9 @@ class Arete
         void setextremite1 (int extremite1);
         void setextremite2 (int extremite2);
 
+        int getextrem1();
+        int getextrem2();
+
         void afficher_arete();
 
 

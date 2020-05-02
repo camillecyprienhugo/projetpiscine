@@ -23,5 +23,9 @@ int main()
     a.afficher_grapheC();
 
     a.svg_sommet();
+
+    a.degre_somm();
+
+    a.vec_propre();
 }
 

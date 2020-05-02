@@ -31,6 +31,8 @@ class Graphe
         void lire_fichier(std::string *nomF);
         void afficher_grapheC();
         void svg_sommet();
+        void degre_somm();
+        void vec_propre();
 
 };
 

@@ -17,10 +17,21 @@ void Sommet :: setindice(int indice)
     indice=m_indiceS;
 }
 
+int Sommet :: getindice()
+{
+    return m_indiceS;
+}
+
 void Sommet :: setnom(char nom)
 {
     nom=m_nom;
 }
+
+char Sommet :: getnom()
+{
+    return m_nom;
+}
+
 
 void Sommet :: setcoorX(int coorX)
 {
@@ -41,6 +52,7 @@ int Sommet :: getY()
 {
     return m_coorY;
 }
+
 
 void Sommet :: afficher_sommet()
 {
