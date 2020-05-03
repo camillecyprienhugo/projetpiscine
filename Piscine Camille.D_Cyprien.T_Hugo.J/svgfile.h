@@ -3,11 +3,13 @@
 #include <string>
 #include <fstream>
 #include <set>
-
+//ce fichier vient des projet et TP du premier semestre. Il est utilise pour afficher en navigateur les schema des graphes charges.
+//Je ne commenterais pas ce fichier en revanche j'ai bien explique la maniere dont je l'ai utilise dans graphe.cpp
 
 constexpr char defcol[] = "black";
 
 class Svgfile
+//definition d'une class Svgfile qui comporte les attributs et les methodes necessaire a l'affichage des graphe dans un navigateur
 {
 private:
 
@@ -20,6 +22,7 @@ private:
     static std::set<std::string> s_openfiles;
 
 public:
+    //ici les methodes sont developpes dans le cpp corespondant et j'utilise les fonctions de ce fichier dans graphe.cpp
 
     Svgfile(std::string _filename = "graphe.svg", int _width=1000, int _height=800);
     ~Svgfile();

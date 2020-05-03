@@ -2,6 +2,9 @@
 #include <iostream>
 #include <sstream>
 
+//ce fichier vient des projet et TP du premier semestre. Il est utilise pour afficher en navigateur les schema des graphes charges.
+//Je ne commenterais pas ce fichier en revanche j'ai bien explique la maniere dont je l'ai utilise dans graphe.cpp
+
 const std::string svgHeader =
     "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
     "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" ";
