@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1588092398 source:c:\users\cypri\desktop\mmorpg\centralité degré\main.cpp
+	<iostream>
+	<vector>
+
