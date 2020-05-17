@@ -1,0 +1,253 @@
+# depslib dependency file v1.0
+1539299571 source:c:\users\luka\dropbox\info codeblocks\maillage_exo\coords.cpp
+	"coords.h"
+	<iostream>
+
+1539281993 c:\users\luka\dropbox\info codeblocks\maillage_exo\coords.h
+
+1539803026 source:c:\users\luka\dropbox\info codeblocks\maillage_exo\couleur.cpp
+	"couleur.h"
+	"svgfile.h"
+	"util.h"
+	<iostream>
+
+1539294001 c:\users\luka\dropbox\info codeblocks\maillage_exo\couleur.h
+	<string>
+	<cstdint>
+
+1539294001 c:\users\luka\dropbox\info codeblocks\maillage_exo\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1539290149 c:\users\luka\dropbox\info codeblocks\maillage_exo\util.h
+	<string>
+
+1571040602 source:c:\users\luka\dropbox\info codeblocks\maillage_exo\main.cpp
+	"couleur.h"
+	"util.h"
+	"maillage.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+
+1539294740 source:c:\users\luka\dropbox\info codeblocks\maillage_exo\svgfile.cpp
+	<iostream>
+	<sstream>
+
+1539291681 source:c:\users\luka\dropbox\info codeblocks\maillage_exo\util.cpp
+	"util.h"
+	<random>
+	<ctime>
+	<iostream>
+	<streambuf>
+	<vector>
+	<cstdlib>
+	<cstdio>
+	<algorithm>
+	<cstring>
+	<iostream>
+	<thread>
+	"util.h"
+	<windows.h>
+
+1571040254 source:c:\users\luka\dropbox\info codeblocks\maillage_exo\sommet.cpp
+	"sommet.h"
+	"svgfile.h"
+	"styledessin.h"
+
+1571040254 c:\users\luka\dropbox\info codeblocks\maillage_exo\sommet.h
+	"coords.h"
+
+1570998081 source:c:\users\luka\dropbox\info codeblocks\maillage_exo\triangle.cpp
+	"triangle.h"
+	"maillage.h"
+	"svgfile.h"
+	"styledessin.h"
+	<iostream>
+
+1570985732 c:\users\luka\dropbox\info codeblocks\maillage_exo\triangle.h
+	"couleur.h"
+
+1571043513 source:c:\users\luka\dropbox\info codeblocks\maillage_exo\maillage.cpp
+	"maillage.h"
+	"svgfile.h"
+	<iostream>
+
+1571043261 c:\users\luka\dropbox\info codeblocks\maillage_exo\maillage.h
+	"triangle.h"
+	"sommet.h"
+	<vector>
+
+1539296115 c:\users\luka\dropbox\info codeblocks\maillage_exo\styledessin.h
+	"couleur.h"
+
+1539299571 source:c:\users\ertch\dropbox\info codeblocks\maillage_exo\coords.cpp
+	"coords.h"
+	<iostream>
+
+1539281993 c:\users\ertch\dropbox\info codeblocks\maillage_exo\coords.h
+
+1539803026 source:c:\users\ertch\dropbox\info codeblocks\maillage_exo\couleur.cpp
+	"couleur.h"
+	"svgfile.h"
+	"util.h"
+	<iostream>
+
+1539294001 c:\users\ertch\dropbox\info codeblocks\maillage_exo\couleur.h
+	<string>
+	<cstdint>
+
+1539294001 c:\users\ertch\dropbox\info codeblocks\maillage_exo\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1539290149 c:\users\ertch\dropbox\info codeblocks\maillage_exo\util.h
+	<string>
+
+1571041287 source:c:\users\ertch\dropbox\info codeblocks\maillage_exo\maillage.cpp
+	"maillage.h"
+	"svgfile.h"
+	<iostream>
+
+1571043261 c:\users\ertch\dropbox\info codeblocks\maillage_exo\maillage.h
+	"triangle.h"
+	"sommet.h"
+	<vector>
+
+1570985732 c:\users\ertch\dropbox\info codeblocks\maillage_exo\triangle.h
+	"couleur.h"
+
+1571040254 c:\users\ertch\dropbox\info codeblocks\maillage_exo\sommet.h
+	"coords.h"
+
+1571040602 source:c:\users\ertch\dropbox\info codeblocks\maillage_exo\main.cpp
+	"couleur.h"
+	"util.h"
+	"maillage.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+
+1571040254 source:c:\users\ertch\dropbox\info codeblocks\maillage_exo\sommet.cpp
+	"sommet.h"
+	"svgfile.h"
+	"styledessin.h"
+
+1539296115 c:\users\ertch\dropbox\info codeblocks\maillage_exo\styledessin.h
+	"couleur.h"
+
+1539294740 source:c:\users\ertch\dropbox\info codeblocks\maillage_exo\svgfile.cpp
+	<iostream>
+	<sstream>
+
+1570998081 source:c:\users\ertch\dropbox\info codeblocks\maillage_exo\triangle.cpp
+	"triangle.h"
+	"maillage.h"
+	"svgfile.h"
+	"styledessin.h"
+	<iostream>
+
+1539291681 source:c:\users\ertch\dropbox\info codeblocks\maillage_exo\util.cpp
+	"util.h"
+	<random>
+	<ctime>
+	<iostream>
+	<streambuf>
+	<vector>
+	<cstdlib>
+	<cstdio>
+	<algorithm>
+	<cstring>
+	<iostream>
+	<thread>
+	"util.h"
+	<windows.h>
+
+1539295971 source:c:\users\cypri\desktop\maillage_exo\coords.cpp
+	"coords.h"
+	<iostream>
+
+1539278393 c:\users\cypri\desktop\maillage_exo\coords.h
+
+1539799426 source:c:\users\cypri\desktop\maillage_exo\couleur.cpp
+	"couleur.h"
+	"svgfile.h"
+	"util.h"
+	<iostream>
+
+1572883714 c:\users\cypri\desktop\maillage_exo\couleur.h
+	<string>
+	<cstdint>
+
+1539290401 c:\users\cypri\desktop\maillage_exo\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1539286549 c:\users\cypri\desktop\maillage_exo\util.h
+	<string>
+
+1571039913 source:c:\users\cypri\desktop\maillage_exo\maillage.cpp
+	"maillage.h"
+	"svgfile.h"
+	<iostream>
+
+1571039661 c:\users\cypri\desktop\maillage_exo\maillage.h
+	"triangle.h"
+	"sommet.h"
+	<vector>
+
+1570982132 c:\users\cypri\desktop\maillage_exo\triangle.h
+	"couleur.h"
+
+1571036654 c:\users\cypri\desktop\maillage_exo\sommet.h
+	"coords.h"
+
+1571037002 source:c:\users\cypri\desktop\maillage_exo\main.cpp
+	"couleur.h"
+	"util.h"
+	"maillage.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+
+1571036654 source:c:\users\cypri\desktop\maillage_exo\sommet.cpp
+	"sommet.h"
+	"svgfile.h"
+	"styledessin.h"
+
+1539292515 c:\users\cypri\desktop\maillage_exo\styledessin.h
+	"couleur.h"
+
+1539291140 source:c:\users\cypri\desktop\maillage_exo\svgfile.cpp
+	<iostream>
+	<sstream>
+
+1570994481 source:c:\users\cypri\desktop\maillage_exo\triangle.cpp
+	"triangle.h"
+	"maillage.h"
+	"svgfile.h"
+	"styledessin.h"
+	<iostream>
+
+1539288081 source:c:\users\cypri\desktop\maillage_exo\util.cpp
+	"util.h"
+	<random>
+	<ctime>
+	<iostream>
+	<streambuf>
+	<vector>
+	<cstdlib>
+	<cstdio>
+	<algorithm>
+	<cstring>
+	<iostream>
+	<thread>
+	"util.h"
+	<windows.h>
+

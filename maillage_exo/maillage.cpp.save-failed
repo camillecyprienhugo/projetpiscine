@@ -1,0 +1,6 @@
+#include "maillage.h"
+
+void Maillage::ajouterSommet()
+{
+    Sommet *nouv= new Sommet;
+}
